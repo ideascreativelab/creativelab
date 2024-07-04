@@ -1,8 +1,10 @@
 <?php
 
+namespace App\Dtos;
+
 class PostDto {
-    public $titulo;
-    public $post;
+    public string $titulo;
+    public string $post;
 
     public function __construct(string $titulo, string $post)
     {
